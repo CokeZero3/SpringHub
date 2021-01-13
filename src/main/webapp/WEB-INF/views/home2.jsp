@@ -24,6 +24,42 @@
   </head>
   <body>
     <h1>Hello, world!</h1>
+    
+    <div class="row">
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+		<div class="col-md-1">.col-md-1</div>
+</div>
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">이메일 주소</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="이메일을 입력하세요">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">암호</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="암호">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">파일 업로드</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">여기에 블록레벨 도움말 예제</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> 입력을 기억합니다
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">제출</button>
+</form>
 
     <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
