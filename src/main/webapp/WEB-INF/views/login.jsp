@@ -1,14 +1,14 @@
-<%@page import="com.cokezero.Spring.*"%>
+<%@page import="com.cokezero.Spring.sessionTest"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
-   <% 
+<% 
    if(sessionTest.setSessions("CokeZero", session)){
 	   out.print("<script>alert('다른 곳에 로그인된 정보가 있어 해제합니다');</script>");
    }
 	   session.setAttribute("usrId", "CokeZero"); 
 	   sessionTest.getSessions();
 
-   %>
+%>
     
 <!DOCTYPE html>
 <html>
